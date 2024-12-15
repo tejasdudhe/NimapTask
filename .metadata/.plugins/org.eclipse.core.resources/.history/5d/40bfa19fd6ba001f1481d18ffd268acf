@@ -1,0 +1,76 @@
+package com.model;
+
+public class Product {
+
+	private int prodId;
+
+	private String prodName;
+	private double price;
+
+	private Category category;
+
+	
+	// Constructor
+	public Product() {
+		super();
+		
+	}
+
+
+	public Product(String prodName, double price, Category category) {
+		super();
+		this.prodName = prodName;
+		this.price = price;
+		this.category = category;
+	}
+
+
+	public int getProdId() {
+		return prodId;
+	}
+
+
+	public void setProdId(int prodId) {
+		this.prodId = prodId;
+	}
+
+
+	public String getProdName() {
+		return prodName;
+	}
+
+
+	public void setProdName(String prodName) {
+		this.prodName = prodName;
+	}
+
+
+	public double getPrice() {
+		return price;
+	}
+
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+
+	public Category getCategory() {
+		return category;
+	}
+
+
+	public void setCategory(Category category) {
+		this.category = category;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
