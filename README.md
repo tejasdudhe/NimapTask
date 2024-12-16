@@ -1,171 +1,224 @@
-# Nimap Java Machine Test
+# **Nimap Java Machine Test**
 
-## Overview
-A Spring Boot application demonstrating CRUD operations on an Oracle database using Hibernate, JPA, and Spring Data JPA.
+## **Overview**
+This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, Delete) operations on a MySQL database. The project is built using Hibernate for ORM, JPA for data persistence, and is configured to use a MySQL database.
 
-## Features
-- CRUD operations for Categories and Products.
+---
+
+## **Features**
+- Implements CRUD operations.
 - Follows RESTful API principles.
-- Database interaction using Spring Data JPA.
-- Configurable Oracle database connectivity.
+- Uses Spring Data JPA for database interaction.
+- Configurable database connectivity using `application.properties`.
 
-## Technologies Used
-- **Backend:** Spring Boot 3.3.6, Hibernate, JPA
-- **Database:** Oracle Database 21c
-- **Tools:** Maven, Postman (API testing)
+---
 
-## Requirements
-- **Java:** JDK 17 or higher
-- **Database:** Oracle 21c (configured locally)
-- **Build Tool:** Maven 3.8 or higher
-- **IDE:** IntelliJ IDEA, Eclipse, or Spring Tool Suite
+## **Technologies Used**
+- **Backend**: Spring Boot 3.3.6, Hibernate, JPA  
+- **Database**: MySQL  
+- **Tools**: Maven, H2 Console, Postman (for API testing)
 
-## Setup Instructions
+---
+
+## **Requirements**
+- **Java**: JDK 17 or higher  
+- **Database**: MySQL 8.0 or higher  
+- **Build Tool**: Maven 3.8 or higher  
+- **IDE**: IntelliJ IDEA / Eclipse / Spring Tool Suite  
+
+---
+
+## **Setup Instructions**
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2. Configure the Database
-Create the database:
-
-sql
+```
+### 2. Configure the Database
+Create a MySQL database:
+```sql
 Copy code
 CREATE DATABASE machine_test;
-Update application.properties with your Oracle database details:
-
-properties
+```
+## Update the application.properties file according to your setup:
+```properties
 Copy code
-spring.application.name=NimapJavaMachineTest
+spring.datasource.url=jdbc:mysql://localhost:3306/machine_test
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 
-# Oracle Database Configuration
-spring.datasource.url=jdbc:oracle:thin:@localhost:1521:orcl
-spring.datasource.username=c##hr
-spring.datasource.password=hr
-spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
-
-# Hibernate JPA Configuration
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
-spring.jpa.database-platform=org.hibernate.dialect.Oracle12cDialect
-
-# Server Configuration
-server.port=8080
-3. Build the Application
-In your terminal, run:
-
-bash
+spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+```
+### 3. Build the Application
+Open the project in your IDE.
+Run the following Maven command to build:
+```bash
 Copy code
 mvn clean install
-4. Run the Application
-Start the Spring Boot application:
-
-bash
+```
+### 4. Run the Application
+-Start the Spring Boot application:
+```bash
 Copy code
 mvn spring-boot:run
-The application will be accessible at http://localhost:8080.
+The application will run on http://localhost:8080.
+```
 
-Database Initialization
-Run the following SQL queries to populate initial records:
 
-Categories
-sql
-Copy code
-INSERT INTO category (id, category_name) VALUES
-(1, 'Electronic Devices'),
-(2, 'Sports'),
-(3, 'Clothing'),
-(4, 'Home Appliances'),
-(5, 'Footwear'),
-(6, 'Jewelry'),
-(7, 'Educational'),
-(8, 'Devotional'),
-(9, 'Toys'),
-(10, 'Accessories'),
-(11, 'Automobile');
-Products
-sql
-Copy code
-INSERT INTO product (id, price, product_name, category_id) VALUES
-(1, 800, 'T-Shirt', 3),
-(2, 1200, 'Shirt', 3),
-(3, 2100, 'Pant', 3),
-(4, 3500, 'Kurta', 3),
-(5, 1400, 'Oversized T-Shirt', 3),
-(6, 3000, 'Jeans', 3),
-(7, 45000, 'Refrigerator', 4),
-(8, 30000, 'Washing Machine', 4),
-(9, 60000, 'Air Conditioner', 4),
-(10, 20000, 'Cooler', 4);
-API Endpoints
-Category CRUD Operations
-GET All Categories
-GET http://localhost:8080/api/categories?page=0
 
-Create a New Category
-POST http://localhost:8080/api/categories
-Body (JSON):
+## Database Initialization
 
-json
-Copy code
-{ "categoryName": "Utilities" }
-GET Category by ID
-GET http://localhost:8080/api/categories/{id}
+Run the server and execute the following SQL queries to add initial records:
 
-Update Category by ID
-PUT http://localhost:8080/api/categories/{id}
-Body (JSON):
+### Categories
+```sql
+INSERT INTO category VALUES
+(1, "Electronic Devices"),
+(2, "Sports"),
+(3, "Clothing"),
+(4, "Home Appliances"),
+(5, "Footwear"),
+(6, "Jewelry"),
+(7, "Educational"),
+(8, "Devotional"),
+(9, "Toys"),
+(10, "Accessories"),
+(11, "Automobile");
+SELECT * FROM category;
+```
 
-json
-Copy code
-{ "categoryName": "Most Sold" }
-Delete Category by ID
-DELETE http://localhost:8080/api/categories/{id}
+### Products
+```sql
+INSERT INTO product VALUES
+(1, 800, "T-Shirt", 3),
+(2, 1200, "Shirt", 3),
+(3, 2100, "Pant", 3),
+(4, 3500, "Kurta", 3),
+(5, 1400, "Oversized T-Shirt", 3),
+(6, 3000, "Jeans", 3),
+(7, 45000, "Refrigerator", 4),
+(8, 30000, "Washing Machine", 4),
+(9, 60000, "Air Conditioner", 4),
+(10, 20000, "Cooler", 4);
+SELECT * FROM product;
+```
 
-Product CRUD Operations
-GET All Products
-GET http://localhost:8080/api/products?page=1
+---
 
-Create a New Product
-POST http://localhost:8080/api/products
-Body (JSON):
+## API Endpoints
 
-json
-Copy code
-{
-  "productName": "Jeans",
-  "price": 3000,
-  "category": { "categoryId": 3 }
-}
-GET Product by ID
-GET http://localhost:8080/api/products/{id}
+### Category CRUD Operations
 
-Update Product by ID
-PUT http://localhost:8080/api/products/{id}
-Body (JSON):
+1. **GET All Categories**
+   ```
+   GET http://localhost:8080/api/categories?page=0
+   ```
 
-json
-Copy code
-{
-  "productName": "Fan",
-  "price": 2000.0,
-  "category": { "categoryId": 1, "categoryName": "Electronic Devices" }
-}
-Delete Product by ID
-DELETE http://localhost:8080/api/products/{id}
+2. **Create a New Category**
+   ```
+   POST http://localhost:8080/api/categories
+   Body (JSON):
+   {
+       "categoryName": "Utilities"
+   }
+   ```
 
-Testing Instructions
-Using Postman or REST Client
-Import API endpoints and test each operation.
-Add ?page={page_number} to GET requests for paginated responses.
-Notes
-Ensure the Oracle database is running before starting the application.
-Use correct IDs for GET, PUT, and DELETE requests.
-Error handling is implemented for invalid requests and database constraints.
-License
+3. **GET Category by ID**
+   ```
+   GET http://localhost:8080/api/categories/{id}
+   ```
+
+4. **Update Category by ID**
+   ```
+   PUT http://localhost:8080/api/categories/{id}
+   Body (JSON):
+   {
+       "categoryName": "Most Sold"
+   }
+   ```
+
+5. **Delete Category by ID**
+   ```
+   DELETE http://localhost:8080/api/categories/{id}
+   ```
+
+### Product CRUD Operations
+
+1. **GET All Products**
+   ```
+   GET http://localhost:8080/api/products?page=1
+   ```
+
+2. **Create a New Product**
+   ```
+   POST http://localhost:8080/api/products
+   Body (JSON):
+   {
+       "productName": "Jeans",
+       "price": 3000,
+       "category": {
+           "categoryId": 3
+       }
+   }
+   ```
+
+3. **GET Product by ID**
+   ```
+   GET http://localhost:8080/api/products/{id}
+   ```
+
+4. **Update Product by ID**
+   ```
+   PUT http://localhost:8080/api/products/{id}
+   Body (JSON):
+   {
+       "productName": "Fan",
+       "price": 2000.0,
+       "category": {
+           "categoryId": 1,
+           "categoryName": "Electronic Devices"
+       }
+   }
+   ```
+
+5. **Delete Product by ID**
+   ```
+   DELETE http://localhost:8080/api/products/{id}
+   ```
+
+---
+
+## Testing Instructions
+
+### Using Postman or REST Client
+
+1. Import the API endpoints and test each operation.
+2. Use the following sample payloads:
+
+### Pagination
+
+- Add `?page={page_number}` to GET endpoints for paginated responses.
+
+---
+
+## Notes
+
+- Ensure the database is running before starting the application.
+- Use proper IDs for GET, PUT, and DELETE operations.
+- Error handling is implemented for invalid requests and database constraints.
+
+## License
+
 This project is licensed under the MIT License.
 
-Author
-Tejas Dudhe
-Email: tejasdudhe12@gmail.com
+---
+
+## Author
+
+**Sarvesh Teware**  
+Email: [sarveshteware651@gmail.com](mailto:sarveshteware651@gmail.com)  
+GitHub: [sarvesh-0](https://github.com/sarvesh-0)  
+LinkedIn: [Sarvesh Teware](https://linkedin.com/in/sarvesh-teware)
