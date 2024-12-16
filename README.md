@@ -1,7 +1,7 @@
 # **Nimap Java Machine Test**
 
 ## **Overview**
-This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, Delete) operations on a MySQL database. The project is built using Hibernate for ORM, JPA for data persistence, and is configured to use a Orcale database.
+This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, Delete) operations on a Oracle database. The project is built using Hibernate for ORM, JPA for data persistence, and is configured to use a Orcale database.
 
 ---
 
@@ -15,7 +15,7 @@ This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, 
 
 ## **Technologies Used**
 - **Backend**: Spring Boot 3.3.6, Hibernate, JPA  
-- **Database**: MySQL  
+- **Database**: Oracle 21C  
 - **Tools**: Maven, H2 Console, Postman (for API testing)
 
 ---
