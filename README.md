@@ -35,12 +35,7 @@ This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, 
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
-### 2. Configure the Database
-Create a MySQL database:
-```sql
-Copy code
-CREATE DATABASE machine_test;
-```
+
 ## Update the application.properties file according to your setup:
 ```properties
 Copy code
