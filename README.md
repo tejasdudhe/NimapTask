@@ -125,7 +125,7 @@ INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (50.00, 'Coloring Book', 
    POST http://localhost:8080/api/categories
    Body (JSON):
    {
-       "categoryName": "Utilities"
+       "categName": "Utilities"
    }
    ```
 
@@ -139,7 +139,7 @@ INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (50.00, 'Coloring Book', 
    PUT http://localhost:8080/api/categories/{id}
    Body (JSON):
    {
-       "categoryName": "Most Sold"
+       "categName": "Most Sold"
    }
    ```
 
@@ -160,10 +160,10 @@ INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (50.00, 'Coloring Book', 
    POST http://localhost:8080/api/products
    Body (JSON):
    {
-       "productName": "Jeans",
+       "prodName": "Jeans",
        "price": 3000,
        "category": {
-           "categoryId": 3
+           "categId": 3
        }
    }
    ```
@@ -178,11 +178,11 @@ INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (50.00, 'Coloring Book', 
    PUT http://localhost:8080/api/products/{id}
    Body (JSON):
    {
-       "productName": "Fan",
+       "prodName": "Fan",
        "price": 2000.0,
        "category": {
-           "categoryId": 1,
-           "categoryName": "Electronic Devices"
+           "categId": 1,
+           "categName": "Electronic Devices"
        }
    }
    ```
