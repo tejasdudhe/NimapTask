@@ -86,11 +86,11 @@ Run the server and execute the following SQL queries to add initial records:
 
 ### Categories
 ```sql
-INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Electronics');
-INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Clothing');
-INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Home Appliances');
-INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Toys');
-INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Books');
+INSERT INTO category (CATEG_NAME) VALUES ('Electronics');
+INSERT INTO category (CATEG_NAME) VALUES ('Clothing');
+INSERT INTO category (CATEG_NAME) VALUES ('Home Appliances');
+INSERT INTO category (CATEG_NAME) VALUES ('Toys');
+INSERT INTO category (CATEG_NAME) VALUES ('Books');
 
 ```
 
