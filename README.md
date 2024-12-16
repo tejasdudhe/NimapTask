@@ -58,14 +58,14 @@ spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
 server.port=8080
 
 ```
-### 3. Build the Application
+### 2. Build the Application
 Open the project in your IDE.
 Run the following Maven command to build:
 ```bash
 Copy code
 mvn clean install
 ```
-### 4. Run the Application
+### 3. Run the Application
 -Start the Spring Boot application:
 ```bash
 Copy code
