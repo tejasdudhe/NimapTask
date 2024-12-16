@@ -1,7 +1,7 @@
 # **Nimap Java Machine Test**
 
 ## **Overview**
-This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, Delete) operations on a MySQL database. The project is built using Hibernate for ORM, JPA for data persistence, and is configured to use a MySQL database.
+This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, Delete) operations on a MySQL database. The project is built using Hibernate for ORM, JPA for data persistence, and is configured to use a Orcale database.
 
 ---
 
@@ -22,7 +22,7 @@ This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, 
 
 ## **Requirements**
 - **Java**: JDK 17 or higher  
-- **Database**: MySQL 8.0 or higher  
+- **Database**: Oracle 21c or higher  
 - **Build Tool**: Maven 3.8 or higher  
 - **IDE**: IntelliJ IDEA / Eclipse / Spring Tool Suite  
 
@@ -44,13 +44,24 @@ CREATE DATABASE machine_test;
 ## Update the application.properties file according to your setup:
 ```properties
 Copy code
-spring.datasource.url=jdbc:mysql://localhost:3306/machine_test
-spring.datasource.username=root
-spring.datasource.password=your_password
-spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.application.name=NimapJavaMachineTest
 
+
+# Oracle Database Configuration
+spring.datasource.url=jdbc:oracle:thin:@localhost:1521:orcl
+spring.datasource.username=c##hr
+spring.datasource.password=hr
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+# Hibernate JPA Configuration
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+spring.jpa.database-platform=org.hibernate.dialect.OracleDialect
+
+# Server Configuration
+server.port=8080
+
 ```
 ### 3. Build the Application
 Open the project in your IDE.
@@ -75,35 +86,27 @@ Run the server and execute the following SQL queries to add initial records:
 
 ### Categories
 ```sql
-INSERT INTO category VALUES
-(1, "Electronic Devices"),
-(2, "Sports"),
-(3, "Clothing"),
-(4, "Home Appliances"),
-(5, "Footwear"),
-(6, "Jewelry"),
-(7, "Educational"),
-(8, "Devotional"),
-(9, "Toys"),
-(10, "Accessories"),
-(11, "Automobile");
-SELECT * FROM category;
+INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Electronics');
+INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Clothing');
+INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Home Appliances');
+INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Toys');
+INSERT INTO category (CATEGID, CATEG_NAME) VALUES (category_seq.NEXTVAL, 'Books');
+
 ```
 
 ### Products
 ```sql
-INSERT INTO product VALUES
-(1, 800, "T-Shirt", 3),
-(2, 1200, "Shirt", 3),
-(3, 2100, "Pant", 3),
-(4, 3500, "Kurta", 3),
-(5, 1400, "Oversized T-Shirt", 3),
-(6, 3000, "Jeans", 3),
-(7, 45000, "Refrigerator", 4),
-(8, 30000, "Washing Machine", 4),
-(9, 60000, "Air Conditioner", 4),
-(10, 20000, "Cooler", 4);
-SELECT * FROM product;
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (499.99, 'T-Shirt', 2);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (1500.00, 'Smartphone', 1);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (2500.00, 'Microwave Oven', 3);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (1200.00, 'Jeans', 2);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (199.00, 'Toy Car', 4);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (4000.00, 'Refrigerator', 3);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (800.00, 'Novel', 5);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (100.00, 'Crayons Set', 5);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (8999.00, 'Air Conditioner', 3);
+INSERT INTO product (PRICE, PROD_NAME, CATEGID) VALUES (50.00, 'Coloring Book', 5);
+
 ```
 
 ---
@@ -218,7 +221,7 @@ This project is licensed under the MIT License.
 
 ## Author
 
-**Sarvesh Teware**  
-Email: [sarveshteware651@gmail.com](mailto:sarveshteware651@gmail.com)  
-GitHub: [sarvesh-0](https://github.com/sarvesh-0)  
-LinkedIn: [Sarvesh Teware](https://linkedin.com/in/sarvesh-teware)
+**Tejas Dudhe**  
+Email: [tejasdudhe12@gmail.com](mailto:tejasdudhe12@gmail.com)  
+GitHub: [tejasdudhe](https://github.com/tejasdudhe)  
+LinkedIn: [Tejas Dudhe](https://linkedin.com/in/tejasdudhe)
