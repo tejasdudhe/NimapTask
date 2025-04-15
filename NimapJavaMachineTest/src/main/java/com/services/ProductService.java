@@ -20,6 +20,8 @@ public class ProductService {
 
 	@Autowired
 	 private ProductRepository prodRepo;
+	@Autowired
+	 private CategoryRepository categoryRepo;
 	
 	 public Page<Product> getAllProducts(int page, int size) {
 	     return prodRepo.findAll(PageRequest.of(page,size));
@@ -27,6 +29,10 @@ public class ProductService {
 	 
 	 
 	 public Product createProduct(Product product) { 
+		 int categoryId = product.getCategory().getCategID();
+	        Category category = categoryRepo.findById(categoryId)
+	                						.orElseThrow(() -> new RuntimeException("Category not found"));
+	        product.setCategory(category);
 	     return prodRepo.save(product);
 	 }
 	 
@@ -38,7 +44,12 @@ public class ProductService {
 	     Product product = prodRepo.findById(prodId).orElseThrow(() -> new RuntimeException("Product not found"));
 	     product.setProdName(productDetails.getProdName());
 	     product.setPrice(productDetails.getPrice());
+	     
+	     int categoryId = productDetails.getCategory().getCategID();
+	     Category category = categoryRepo.findById(categoryId)
+	         .orElseThrow(() -> new RuntimeException("Category not found"));
 	     product.setCategory(productDetails.getCategory());
+	     
 	     return prodRepo.save(product);
 	 }
 	 
