@@ -21,3 +21,10 @@ private Category category;
 
 ```
 This maps your Product to a Category, and due to FetchType.EAGER, it ensures category is automatically fetched when you get a product.
+
+
+## Screenshot
+
+This is the implementation of fetching single product details with category:
+
+![Implementation Screenshot](ss.png)
