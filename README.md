@@ -19,8 +19,3 @@ This has been implemented using the following field in the `Product` entity:
 @JsonIgnoreProperties("products")
 private Category category;
 
-## ✅ Implementation Proof
-
-The below image shows that the **Product API response** is correctly populated with **Category details** as per the requirement.
-
-![image](https://github.com/user-attachments/assets/fbed41e2-e84c-417a-a2cf-9804888235aa)
