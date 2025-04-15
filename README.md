@@ -19,3 +19,4 @@ This has been implemented using the following field in the `Product` entity:
 @JsonIgnoreProperties("products")
 private Category category;
 
+//This maps your Product to a Category, and due to FetchType.EAGER, it ensures category is automatically fetched when you get a product.
