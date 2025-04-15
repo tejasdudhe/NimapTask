@@ -1,6 +1,5 @@
 package com.model;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.CascadeType;
@@ -22,16 +21,10 @@ public class Product {
 	private String prodName;
 	private double price;
 
-	 	@ManyToOne(fetch = FetchType.EAGER)
-	    @JoinColumn(name = "categID")
-	    @JsonIgnoreProperties("products") 
-	    private Category category;
-
-//	@ManyToOne(fetch = FetchType.EAGER)
-//	@JoinColumn(name = "categID")
-//	@JsonBackReference
-//	private Category category;
-
+	@ManyToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "categID")
+	@JsonIgnoreProperties("products")
+	private Category category;
 
 	// Constructor
 	public Product() {

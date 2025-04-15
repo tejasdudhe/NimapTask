@@ -21,16 +21,9 @@ public class Category {
 
 	private String categName;
 
-	
 	@OneToMany(mappedBy = "category", cascade = CascadeType.ALL, orphanRemoval = true)
 	@JsonIgnore
 	private List<Product> products;
-	
-//	@OneToMany(mappedBy = "category", cascade = CascadeType.ALL)
-//	@JsonManagedReference
-//	private List<Product> products;
-
-	
 
 	public Category() {
 		super();

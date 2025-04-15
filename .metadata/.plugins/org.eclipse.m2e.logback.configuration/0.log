@@ -41,3 +41,168 @@
 2025-04-15 14:08:44,483 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-04-15 14:08:44,486 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-04-15 14:08:44,489 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:17:39,836 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:17:39,841 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:17:39,843 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:17:40,911 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:17:40,915 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:17:40,917 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:17:52,822 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:17:52,822 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:17:52,825 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:19:27,240 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:19:27,244 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:19:27,246 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:22:47,331 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:22:47,345 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:22:47,349 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:23:02,209 [Worker-65: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:23:02,223 [Worker-65: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:23:02,226 [Worker-65: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:30:00,046 [Worker-55: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:30:00,052 [Worker-55: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:30:00,055 [Worker-55: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:39:19,797 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:39:19,801 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:39:19,804 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:40:20,046 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:40:20,050 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:40:20,052 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:49:21,017 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:49:21,021 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:49:21,024 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:50:29,053 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:50:29,056 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:50:29,058 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:51:39,161 [Worker-81: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:51:39,169 [Worker-81: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:51:39,173 [Worker-81: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:52:18,025 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:52:18,029 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:52:18,031 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:54:24,906 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:54:24,907 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:54:24,909 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:55:01,637 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:55:01,639 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:55:01,641 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:55:09,803 [Worker-81: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:55:09,808 [Worker-81: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:55:09,810 [Worker-81: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:57:33,096 [Worker-80: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:57:33,100 [Worker-80: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:57:33,103 [Worker-80: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:58:03,187 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:58:03,190 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:58:03,192 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 14:59:45,463 [Worker-84: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 14:59:45,469 [Worker-84: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 14:59:45,471 [Worker-84: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:01:03,815 [Worker-78: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:01:03,818 [Worker-78: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:01:03,821 [Worker-78: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:13:56,493 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:13:56,496 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:13:56,497 [Worker-96: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:14:06,566 [Worker-95: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:14:06,571 [Worker-95: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:14:06,573 [Worker-95: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:21:59,791 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:21:59,794 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:21:59,796 [Worker-106: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:23:29,293 [Worker-105: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:23:29,298 [Worker-105: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:23:29,301 [Worker-105: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:25:55,276 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:25:55,278 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:25:55,280 [Worker-111: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:34:30,509 [Worker-117: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:34:30,512 [Worker-117: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:34:30,514 [Worker-117: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:39:58,181 [Worker-121: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:39:58,193 [Worker-121: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:39:58,196 [Worker-121: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:41:05,778 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:41:05,779 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:41:05,780 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:42:11,731 [Worker-121: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:42:11,735 [Worker-121: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:42:11,754 [Worker-121: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:42:51,883 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:42:51,886 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:42:51,888 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:43:11,557 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:43:11,569 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:43:11,571 [Worker-120: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:43:20,293 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:43:20,297 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:43:20,299 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:43:27,203 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:43:27,208 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:43:27,210 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:43:39,573 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:43:39,576 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:43:39,578 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:54:51,018 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:54:51,022 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:54:51,025 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:56:38,410 [Worker-128: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:56:38,414 [Worker-128: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:56:38,416 [Worker-128: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:57:41,655 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:57:41,657 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:57:41,658 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:58:47,407 [Worker-123: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:58:47,411 [Worker-123: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:58:47,414 [Worker-123: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 15:59:38,710 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 15:59:38,712 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 15:59:38,714 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:00:07,147 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:00:07,150 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:00:07,151 [Worker-127: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:00:24,311 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:00:24,314 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:00:24,316 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:02:04,608 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:02:04,610 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:02:04,611 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:10:26,224 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:10:26,227 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:10:26,229 [Worker-135: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:10:30,400 [Worker-129: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:10:30,411 [Worker-129: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:10:30,413 [Worker-129: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:10:45,503 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:10:45,506 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:10:45,507 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:10:53,178 [Worker-135: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:10:53,183 [Worker-135: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:10:53,185 [Worker-135: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:14:14,119 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:14:14,122 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:14:14,123 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:14:25,482 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:14:25,486 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:14:25,498 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:14:38,840 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:14:38,843 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:14:38,844 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:14:42,675 [Worker-124: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:14:42,678 [Worker-124: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:14:42,680 [Worker-124: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:22:21,926 [Worker-145: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:22:21,940 [Worker-145: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:22:21,942 [Worker-145: Launching NimapJavaMachineTest - NimapJavaMachineTestApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:29:21,591 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:29:21,595 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:29:21,596 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:29:31,674 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:29:31,679 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:29:31,680 [Worker-146: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:35:22,555 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:35:22,559 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:35:22,561 [Worker-157: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources
+2025-04-15 16:39:47,048 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-15 16:39:47,063 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-15 16:39:47,065 [Worker-161: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Educational\Nimap_Task\NimapJavaMachineTest\src\test\resources

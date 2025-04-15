@@ -21,41 +21,40 @@ import com.services.ProductService;
 @RestController
 @RequestMapping("/api/products")
 public class ProductController {
-	 
-	@Autowired
-	 private ProductService prodService;
-	
-	
-	 @GetMapping
-	 public Page<Product> getAllProducts(@RequestParam(defaultValue = "0") int page, @RequestParam(defaultValue = "10") int size) {
-	     
-	     return prodService.getAllProducts(page, size);
-	 }
-	 
-	 
-	 @PostMapping
-	 public ResponseEntity<Product> createProduct(@RequestBody Product product) {
-		 Product createProduct = prodService.createProduct(product);
-	     return ResponseEntity.ok(createProduct);
-	 }
-	 
-	 
-	 @GetMapping("/{prodId}")
-	 public ResponseEntity<Product> getProductById(@PathVariable("prodId") int prodId) {
-	     Optional<Product> product = prodService.getProductById(prodId);
-	     return product.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
-	 }
-	 
-	 @PutMapping("/{prodId}")
-	 public ResponseEntity<Product> updateProduct(@PathVariable("prodId") int prodId, @RequestBody Product productDetails) {
-	     Product updatedProduct = prodService.updateProduct(prodId, productDetails);
-	     return ResponseEntity.ok(updatedProduct);
-	 }
 
-	 @DeleteMapping("/{prodId}")
-	 public ResponseEntity<Void> deleteProduct(@PathVariable("prodId") int prodId) {
-		 prodService.deleteProduct(prodId);
-	     return ResponseEntity.noContent().build();
-	 }
+	@Autowired
+	private ProductService prodService;
+
+	@GetMapping
+	public Page<Product> getAllProducts(@RequestParam(defaultValue = "0") int page,
+			@RequestParam(defaultValue = "10") int size) {
+
+		return prodService.getAllProducts(page, size);
+	}
+
+	@PostMapping
+	public ResponseEntity<Product> createProduct(@RequestBody Product product) {
+		Product createProduct = prodService.createProduct(product);
+		return ResponseEntity.ok(createProduct);
+	}
+
+	@GetMapping("/{prodId}")
+	public ResponseEntity<Product> getProductById(@PathVariable("prodId") int prodId) {
+		Optional<Product> product = prodService.getProductById(prodId);
+		return product.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+	}
+
+	@PutMapping("/{prodId}")
+	public ResponseEntity<Product> updateProduct(@PathVariable("prodId") int prodId,
+			@RequestBody Product productDetails) {
+		Product updatedProduct = prodService.updateProduct(prodId, productDetails);
+		return ResponseEntity.ok(updatedProduct);
+	}
+
+	@DeleteMapping("/{prodId}")
+	public ResponseEntity<Void> deleteProduct(@PathVariable("prodId") int prodId) {
+		prodService.deleteProduct(prodId);
+		return ResponseEntity.noContent().build();
+	}
 
 }
