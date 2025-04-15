@@ -1,9 +1,10 @@
 package com.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -20,8 +21,8 @@ public class Product {
 	private String prodName;
 	private double price;
 
-	@ManyToOne
-	@JoinColumn(name = "categID")
+	@ManyToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name = "categID", nullable = false)
 	@JsonIgnoreProperties("products")
 	private Category category;
 
